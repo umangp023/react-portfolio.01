@@ -52,7 +52,7 @@ export default function Home() {
               Developer + UI/UX Designer
             </h3>
             <p className="text-lg py-5 leading-7 text-gray-800 dark:text-gray-200 max-w-3xl mx-auto md:text-xl">
-              In search for my next adventure in the software engineering field, I am a skilled dveloper with almost 3 years of experience in React, Next.js, and Python. I excel at desinging and developing applications. Passionate about AI, Cloud computing and WebDevelopment. I am eager to tackle new challenges and contribute to innovative projects.
+              In search for my next adventure in the software engineering field, I am a skilled dveloper with almost 3 years of experience in React, Next.js, and Python. I excel at designing and developing applications. Passionate about AI, Cloud Computing and WebDevelopment. I am eager to tackle new challenges and contribute to innovative projects.
             </p>
             <div className="text-4xl flex justify-center gap-6 py-4 text-gray-600 dark:text-gray-400">
               <a href="https://www.linkedin.com/in/umangp023/" aria-label="LinkedIn profile">
