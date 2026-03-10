@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 import { BsFillMoonStarsFill, BsSunFill } from 'react-icons/bs';
 import { MdLocationOn } from 'react-icons/md';
@@ -114,6 +115,7 @@ function SectionHeading({ children }) {
 }
 
 export default function Home() {
+  const { basePath } = useRouter();
   const [darkMode, setDarkMode] = useState(true);
 
   const toggleDarkMode = () => setDarkMode(prev => !prev);
@@ -123,7 +125,7 @@ export default function Home() {
       <Head>
         <title>Umang Patel – Software Engineer</title>
         <meta name="description" content="Portfolio of Umang Patel – Automation-focused Software Engineer specializing in AI platform architecture, backend systems, and cloud-native infrastructure." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${basePath}/favicon.ico`} />
       </Head>
 
       <main className="bg-white dark:bg-gray-900 transition-colors duration-500">
@@ -145,7 +147,7 @@ export default function Home() {
             <li>
               <a
                 className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md text-sm font-medium shadow hover:shadow-md transition-shadow"
-                href="/resume.pdf"
+                href={`${basePath}/resume.pdf`}
                 download="UmangPatel_Resume.pdf"
               >
                 Resume
