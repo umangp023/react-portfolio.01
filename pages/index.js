@@ -131,7 +131,7 @@ export default function Home() {
       <main className="bg-white dark:bg-gray-900 transition-colors duration-500">
         {/* Navbar */}
         <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 px-6 md:px-12 lg:px-24 py-4 flex justify-between items-center dark:text-white shadow-sm">
-          <span className="text-lg font-semibold tracking-tight">umangp023</span>
+          <span className="text-lg font-semibold tracking-tight">Hi Welocme!</span>
           <ul className="flex items-center gap-4">
             <li>
               <button
